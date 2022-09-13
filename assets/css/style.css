@@ -72,20 +72,32 @@ header {
 
 li {
     list-style: none;
-    font-size: 20px;
+    font-size: 18px;
+    margin-top: 10px;
 }
 
 .checkbox {
     display: inline-block;
-    border:1px solid green;
+    border:1px solid #79CAB6;
     border-radius: 50%;
     width: 20px;
     height: 20px;
     text-align: center;
     font-size: 15px;
-    vertical-align: middle;
-    color: green;
+    vertical-align:middle;
+    color: #79CAB6;
+    line-height: 20px;
 }
+
+.category {
+    background-color: #46ADF1;
+    color: white;
+    border-radius: 13px;
+    font-size: 12px;
+    padding: 7px;
+}
+
+
 
 
 
