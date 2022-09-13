@@ -54,6 +54,10 @@ header {
     border: 2px solid #DBDFE1;
 }
 
+main {
+    line-height: 30px;
+}
+
 .container-2 {
     width: 60%;
     margin: auto;
@@ -66,13 +70,13 @@ header {
     font-size: 25px;
 }
 
-.container-2 h5::before{
+h5::before{
     content: '\25BC';
 }
 
-li {
+.list {
     list-style: none;
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 10px;
 }
 
@@ -89,12 +93,44 @@ li {
     line-height: 20px;
 }
 
-.category {
+.category-1 {
     background-color: #46ADF1;
     color: white;
     border-radius: 13px;
     font-size: 12px;
     padding: 7px;
+}
+
+.container-3 {
+    width: 60%;
+    margin: auto;
+    background-color: white;
+    padding: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: -30px;
+}
+
+.category-2 {
+    background-color: #9C72E4;
+    color: white;
+    border-radius: 13px;
+    font-size: 12px;
+    padding: 7px;
+}
+
+.checkbox-1 {
+    display: inline-block;
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-size: 15px;
+    vertical-align: middle;
+    color: red;
+    line-height: 20px;
 }
 
 
