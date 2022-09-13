@@ -57,7 +57,7 @@ header {
 main {
     line-height: 30px;
 }
-
+/* Stile nuove task, checkbox e categorie */
 .container-2 {
     width: 60%;
     margin: auto;
@@ -131,6 +131,22 @@ h5::before{
     vertical-align: middle;
     color: red;
     line-height: 20px;
+}
+
+.category-3 {
+    background-color: #63C0A9;
+    color: white;
+    border-radius: 13px;
+    font-size: 12px;
+    padding: 7px;
+}
+
+.category-4 {
+    background-color: #F29E33;
+    color: white;
+    border-radius: 13px;
+    font-size: 12px;
+    padding: 7px
 }
 
 
