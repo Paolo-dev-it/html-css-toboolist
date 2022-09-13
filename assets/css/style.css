@@ -28,8 +28,8 @@ header {
 
 /* Sezioni con bottoni */
 
-#container {
-    width: 80%;
+#container-1 {
+    width: 60%;
     margin: auto;
     background-color: white;
     margin-top: 40px;
@@ -53,6 +53,45 @@ header {
     border-radius: 10%;
     border: 2px solid #DBDFE1;
 }
+
+.container-2 {
+    width: 60%;
+    margin: auto;
+    background-color: white;
+    margin-top: 2px;
+    padding: 40px;
+    border-radius: 3%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.container-2 h5::before{
+    content: '\25BC';
+}
+
+li {
+    list-style: none;
+    font-size: 20px;
+}
+
+.checkbox {
+    display: inline-block;
+    border:1px solid green;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-size: 15px;
+    vertical-align: middle;
+    color: green;
+}
+
+
+
+
+
+
 
 
 
