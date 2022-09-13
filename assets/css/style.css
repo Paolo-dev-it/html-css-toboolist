@@ -21,7 +21,7 @@ header {
     width: 80px;
     font-size: 40px;
     font-family: 'Roboto', sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     vertical-align: middle;
     margin-left: 20px;
 }
@@ -72,33 +72,15 @@ main {
 
 h5::before{
     content: '\25BC';
+    font-size: 13px;
 }
+
+
 
 .list {
     list-style: none;
     font-size: 16px;
     margin-top: 10px;
-}
-
-.checkbox {
-    display: inline-block;
-    border:1px solid #79CAB6;
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    text-align: center;
-    font-size: 15px;
-    vertical-align:middle;
-    color: #79CAB6;
-    line-height: 20px;
-}
-
-.category-1 {
-    background-color: #46ADF1;
-    color: white;
-    border-radius: 13px;
-    font-size: 12px;
-    padding: 7px;
 }
 
 .container-3 {
@@ -111,13 +93,18 @@ h5::before{
     font-size: 25px;
     margin-top: -30px;
 }
-
-.category-2 {
-    background-color: #9C72E4;
-    color: white;
-    border-radius: 13px;
-    font-size: 12px;
-    padding: 7px;
+/* Checkbox spunta e x */
+.checkbox {
+    display: inline-block;
+    border: 1px solid #79CAB6;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-size: 15px;
+    vertical-align: middle;
+    color: #79CAB6;
+    line-height: 20px;
 }
 
 .checkbox-1 {
@@ -132,6 +119,23 @@ h5::before{
     color: red;
     line-height: 20px;
 }
+/* Categorie liste */
+
+.category-1 {
+    background-color: #46ADF1;
+    color: white;
+    border-radius: 13px;
+    font-size: 12px;
+    padding: 7px;
+}
+
+.category-2 {
+    background-color: #9C72E4;
+    color: white;
+    border-radius: 13px;
+    font-size: 12px;
+    padding: 7px;
+}
 
 .category-3 {
     background-color: #63C0A9;
@@ -143,6 +147,22 @@ h5::before{
 
 .category-4 {
     background-color: #F29E33;
+    color: white;
+    border-radius: 13px;
+    font-size: 12px;
+    padding: 7px
+}
+
+.category-5 {
+    background-color: #D763A1;
+    color: white;
+    border-radius: 13px;
+    font-size: 12px;
+    padding: 7px
+}
+
+.category-6 {
+    background-color: #B0C925;
     color: white;
     border-radius: 13px;
     font-size: 12px;
